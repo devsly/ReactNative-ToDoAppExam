@@ -289,7 +289,9 @@ Git commit history reflects the development process
 👤 Author
 
 Name: Slav Slavov
+
 Course: React Native
+
 Project Type: Exam Project
 
 
