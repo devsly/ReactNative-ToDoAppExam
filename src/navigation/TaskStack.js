@@ -1,4 +1,5 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
 import TaskListScreen from '../screens/task/TaskListScreen';
 import TaskDetailsScreen from '../screens/task/TaskDetailsScreen';
 import AddTaskScreen from '../screens/task/AddTaskScreen';
@@ -9,10 +10,10 @@ const Stack = createNativeStackNavigator();
 export default function TasksStack() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Tasks" component={TaskListScreen} />
-      <Stack.Screen name="TaskDetails" component={TaskDetailsScreen} />
+      <Stack.Screen name="TasksList" component={TaskListScreen} options={{headerShown:false}}/>
+      <Stack.Screen name="TaskDetails" component={TaskDetailsScreen} options={{headerTitle:"Task Details"}}/>
       <Stack.Screen name="AddTask" component={AddTaskScreen} />
-      <Stack.Screen name="EditTask" component={EditTaskScreen} />
+      <Stack.Screen name="EditTask" component={EditTaskScreen} options={{headerTitle:"Edit task"}}/>
     </Stack.Navigator>
   );
 }

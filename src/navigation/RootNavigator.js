@@ -1,14 +1,10 @@
 
-import { NavigationContainer } from '@react-navigation/native';
 import AuthStack from './AuthStack';
 import AppTabs from './AppTabs';
+import { useAuth } from '../context/AuthContext';
 
 export default function RootNavigator() {
-  const isAuthenticated = true; // временно
+  const { user } = useAuth();
 
-  return (
-    <NavigationContainer>
-      {isAuthenticated ? <AppTabs /> : <AuthStack />}
-    </NavigationContainer>
-  );
+  return user ? <AppTabs /> : <AuthStack />;
 }
