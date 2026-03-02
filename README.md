@@ -6,38 +6,52 @@
 Author
 
 Name: Slav Slavov
+
 Course: React Native
+
 Project Type: Exam Project
 
 
 APK Download Link:
+
 https://drive.google.com/file/d/1XDnX9ZcYTH7sPNCfAh_wdfX7qujhVZBZ/view?usp=sharing
 
 🧪 Test Credentials
+
 Email: test@test.com
+
 Password: 123456
 
 
 ## Installation & Run Instructions
 
 **Install dependencies**
+
 npm install
 
 **Start the application**
+
 npx expo start
 
 **Run on device**
+
 Scan the QR code using Expo Go
 OR
 Run on Android Emulator
 
 
 📁 Project Structure
+
 src/
+
  ├── context/
+
  ├── navigation/
+
  ├── screens/
+
  ├── services/
+ 
 
 **Notes**
 
