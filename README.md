@@ -1,6 +1,49 @@
 
-# 📘 React Native – Exam Project  
+#  React Native – Softuni Exam Project  
 ## Task Manager App
+
+
+Author
+
+Name: Slav Slavov
+Course: React Native
+Project Type: Exam Project
+
+
+APK Download Link:
+https://drive.google.com/file/d/1XDnX9ZcYTH7sPNCfAh_wdfX7qujhVZBZ/view?usp=sharing
+
+🧪 Test Credentials
+Email: test@test.com
+Password: 123456
+
+
+## Installation & Run Instructions
+
+**Install dependencies**
+npm install
+
+**Start the application**
+npx expo start
+
+**Run on device**
+Scan the QR code using Expo Go
+OR
+Run on Android Emulator
+
+
+📁 Project Structure
+src/
+ ├── context/
+ ├── navigation/
+ ├── screens/
+ ├── services/
+
+**Notes**
+
+The project uses a real backend (Firebase)
+
+Data persistence is real and permanent
 
 ---
 
@@ -235,66 +278,3 @@ This approach avoids hardcoding sensitive configuration values directly in the r
   - If no tasks exist, an empty state message is displayed.
 
 ---
-
-
-
-
-
-
-
-
-##
-
-🚀 Installation & Run Instructions
-1️⃣ Install dependencies
-npm install
-
-2️⃣ Start the application
-npx expo start
-
-3️⃣ Run on device
-
-Scan the QR code using Expo Go
-OR
-
-Run on Android Emulator
-
-📦 APK Build
-
-🔗 APK Download Link:
-👉 PASTE YOUR APK LINK HERE (Google Drive / Firebase Hosting / GitHub Release)
-
-🧪 Test Credentials
-Email: test@test.com
-Password: 123456
-
-📁 Project Structure
-src/
- ├── context/
- ├── navigation/
- ├── screens/
- ├── services/
- └── components/
-
-📌 Notes
-
-The project uses a real backend (Firebase)
-
-Data persistence is real and permanent
-
-The application does not crash on startup
-
-Git commit history reflects the development process
-
-👤 Author
-
-Name: Slav Slavov
-
-Course: React Native
-
-Project Type: Exam Project
-
-
-
-
-
