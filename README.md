@@ -3,9 +3,7 @@
 ## Task Manager App
 
 
-Author
-
-Name: Slav Slavov
+Author Name: Slav Slavov
 
 Course: React Native
 
@@ -51,7 +49,7 @@ src/
  ├── screens/
 
  ├── services/
- 
+
 
 **Notes**
 
